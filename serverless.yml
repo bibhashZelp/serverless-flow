@@ -61,7 +61,7 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.test
     events:
       - http:
           path: /test
